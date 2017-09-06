@@ -8,7 +8,7 @@ with open(os.path.join(here, 'readme.md')) as handle:
 
 setuptools.setup(
     name='lenses',
-    version='0.1.0',
+    version='0.1.8b1',
     description='A lens library for python',
     long_description=long_desc,
     url='https://github.com/ingolemo/python-lenses',
