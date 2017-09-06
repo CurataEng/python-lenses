@@ -3,14 +3,11 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(here, 'readme.md')) as handle:
-    long_desc = handle.read()
-
 setuptools.setup(
     name='lenses',
     version='0.1.8b1',
     description='A lens library for python',
-    long_description=long_desc,
+    long_description='lenses',
     url='https://github.com/ingolemo/python-lenses',
     author='Adrian Room',
     author_email='<ingolemo@gmail.com>',
